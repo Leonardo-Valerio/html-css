@@ -1,0 +1,72 @@
+
+        
+        
+        div{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: lightgray;
+            border: 5px solid black;
+            padding: 10px 10px 0px 20px;
+        }
+        
+        h1:hover{
+            color: darkblue;
+        }
+        h2 > .escondido{
+            display: none;
+            color: darkcyan;
+        }
+        .escondido{
+            font-size: xx-small;
+        }
+        h2:hover > p{
+            display:block ;
+            color: darkcyan;
+            border-color: black;
+            
+        }
+       
+        
+        h2{
+            border: 2px solid; 
+            padding-left: 10px;
+        }
+        .text{
+            border: 5px solid rgb(2, 2, 2);
+            margin-top: 30px;
+            padding: 10px;
+        }
+        .pergunta{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: none;
+            display: inline;
+            
+        }
+        
+        
+        .messi{
+            display: inline;
+            padding: auto;
+            margin: auto;
+            border: none;
+
+        }
+        .cr7{
+            display: inline;
+            border: none;
+        }
+        .messi > .lionel{
+            display: none;
+        }
+        .messi:hover > .lionel{
+            display: block;
+            color: rgb(64, 57, 196);
+        }
+        .cr7 > .cristiano{
+            display: none;
+
+        }
+        .cr7:hover > .cristiano{
+            display: block;
+            color: darkred;
+        }
+        

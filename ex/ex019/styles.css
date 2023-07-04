@@ -1,0 +1,29 @@
+body{
+    background-color: #9EF8EE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:  #22BABB;
+}
+h2{
+    color: #348888;
+}
+#prin{
+    background-color: #22BABB;
+    text-align: center;
+    color: #e95019;
+    font-size: 2.5em;
+}
+.basic{
+    color: rgb(198, 198, 84);
+}
+.advanced{
+    color: rgb(189, 87, 87);
+}
+.destaque{
+    background-color: #34888891;
+    text-align: center;
+    color: #f7f6f5;
+    font-size: 2em;
+}
