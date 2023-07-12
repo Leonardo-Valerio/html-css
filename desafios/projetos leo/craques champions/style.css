@@ -147,3 +147,9 @@ footer{
     font-family: var(--fonte-nome);
     padding: 10px;
 }
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: #291654;
+}
