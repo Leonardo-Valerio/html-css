@@ -6,19 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="cadastro.php" method="get" autocomplete="on" >
-        <p>
-            <label for="iemail">Email:</label>
-            <input type="email" name="email" id="iemail" required autocomplete="iemail" >
-        </p>
-        <p>
-            <label for="itel">Telefone:</label>
-            <input type="tel" name="tel" id="itel" required pattern="^\(\d{2}\)[0-9]{5,4}-[0-9]{4}$" placeholder="(xx)xxxxx-xxxx" autocomplete="itel">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-        </p>
-        <!--estudar mais sobre Regex-->
-    </form>
+        <form action="cadastro.php" method="get" autocomplete="on" >
+            <fieldset>
+                <legend>Contato</legend>
+                <p>
+                    <label for="iemail">Email:</label>
+                    <input type="email" name="email" id="iemail" required autocomplete="iemail" >
+                </p>
+                <p>
+                    <label for="itel">Telefone:</label>
+                    <input type="tel" name="tel" id="itel" required pattern="^\(\d{2}\)[0-9]{5,4}-[0-9]{4}$" placeholder="(xx)xxxxx-xxxx" autocomplete="itel">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </fieldset>
+            <!--estudar mais sobre Regex-->
+        </form>
+    
 </body>
 </html>
