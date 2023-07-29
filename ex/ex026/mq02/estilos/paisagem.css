@@ -1,0 +1,7 @@
+
+
+/*estilo paisagem landscape/*/
+body{
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: bottom left;
+}
