@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+    #menuzin{
+        display: none;
+    }
+    menu{
+        display: block;
+        background-color: rgb(154, 153, 153);
+        text-align: left;
+        padding: 10px;
+    }
+    menu li{
+        display: inline-block;
+        background-color: rgb(56, 54, 54);
+       
+    }
+    main{
+        width: 768px;
+    }
+}
