@@ -1,0 +1,52 @@
+
+@media print{
+    img#print{
+        display: block;
+    }
+    img#celular{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background: url(../imagens/back-tablet.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    img#tablet{
+        display: block;
+    }
+    img#celular{
+        display: none;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    body{
+        background: url(../imagens/back-pc.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    img#pc{
+        display: block;
+    }
+    img#celular{
+        display: none;
+    }
+}
+@media screen and (min-width: 1201px){
+    body{
+        background: url(../imagens/back-tv.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    img#tv{
+        display: block;
+    }
+    img#celular{
+        display: none;
+    }
+}
